@@ -1,0 +1,46 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+nav {
+  padding: 2rem 1rem 1rem 1rem;
+  font-size: 1.5rem;
+}
+.nav-link {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+#app {
+  padding: 1rem 2rem;
+}
+.blog-list {
+  margin-top: 2rem;
+}
+.blog-list-item {
+  margin-bottom: 1.5rem;
+}
+.blog-date {
+  color: #ccc;
+  margin-right: 1rem;
+}
+.blog-title {
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+.blog-title:hover {
+  text-decoration: underline;
+}
+.blog-content-title {
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+.blog-content-body {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
